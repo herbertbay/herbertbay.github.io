@@ -7,7 +7,18 @@ body {
   color: #5a5a5a;
 }
 
-
+.full {
+  background: url(http://41.media.tumblr.com/80a658d823d73d4125fe62e3daa32531/tumblr_o33xtmXsxL1txtcczo1_1280.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  background-blend-mode: multiply;
+  /* -webkit-filter: grayscale(100%);
+  filter: gray; */
+  
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -34,25 +45,39 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
+/* CUSTOMIZE THE TEASER
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
+/* Teaser base class */
+.teaser {
+  position: relative;
   height: 500px;
   margin-bottom: 60px;
+  color: #FFFFFF;
+}
+
+.teaser .h1 {
+  align: center;
+  
 }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
+.teaser-caption {
+  position: absolute;
+  text-align: center;
+  bottom:80px;
+  padding-top: 20px;
+  padding-bottom: 120px;
   z-index: 10;
+  left: 20%;
+  right: 20%;
 }
 
 /* Declare heights because of positioning of img element */
-.carousel .item {
+.teaser .item {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+.teaser-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -64,7 +89,7 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
+/* Center align the text within the three columns below the teaser */
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -115,9 +140,8 @@ body {
     border-radius: 4px;
   }
 
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
+  /* Bump up size of teaser content */
+  .teaser-caption p {
     font-size: 21px;
     line-height: 1.4;
   }
