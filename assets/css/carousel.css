@@ -7,6 +7,10 @@ body {
   color: #5a5a5a;
 }
 
+p {
+  font-size: 1.8rem;
+}
+
 .full {
   background: url(http://41.media.tumblr.com/80a658d823d73d4125fe62e3daa32531/tumblr_o33xtmXsxL1txtcczo1_1280.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -51,7 +55,7 @@ body {
 /* Teaser base class */
 .teaser {
   position: relative;
-  height: 500px;
+  height: 300px;
   margin-bottom: 60px;
   color: #FFFFFF;
 }
@@ -74,7 +78,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .teaser .item {
-  height: 500px;
+  height: 300px;
   background-color: #777;
 }
 .teaser-inner > .item > img {
@@ -155,4 +159,14 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+.marketing {
+  margin-top: 120px;
+}
+
+footer p {
+  color: #999;
+  text-align: center;
+  margin-top: 50px;
 }
