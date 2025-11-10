@@ -1,106 +1,274 @@
 <!DOCTYPE html>
-
-<!--
-
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@(
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.             @@@@@@@@@@#
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.              #@@@@@@@@@
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.              #@@@@@@@@
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.             @@@@@@@@@
- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@&
- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.               @@@@@@@@@@
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.                @@@@@@@@@#
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.                @@@@@@@@@@
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@.               @@@@@@@@@@,
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- @@@@@@@@@                 (@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@/
-
--->
-
-<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>What I'm doing now! Herbert Bay</title>
+  <title>What I'm Doing Now - Herbert Bay</title>
   <meta name="description" content="Herbert Bay - Entrepreneur and Investor - Expert in Computer Vision and Machine Learning - Adventurer">
   <meta name="author" content="Herbert Bay">
   <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16" />
 
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
-    body { padding-top: 70px; }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .gradient-bg {
+      background: linear-gradient(-45deg, #0f172a, #1e293b, #312e81, #1e3a8a);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .glass-white {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .float-animation {
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://herbertbay.com/assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://herbertbay.com/assets/css/bootstrap-theme.min.css" />
-  <link rel="stylesheet" href="https://herbertbay.com/assets/js/bootstrap.min.js" />
 </head>
 
-<body class="home page-template page-template-page-home page-template-page-home-php page page-id-116 page-home cookies-not-set">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <p class="navbar-brand"><strong>Herbert Bay</strong></p>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-left">
-          <li><a class="nav-link" href="https://herbertbay.com/">Home</i></a></li>
-          <li><a class="nav-link" href="mailto:herbert.bay%40gmail.com"><i class="fa fa-fw fab fa-envelope"></i></a></li>
-          <li><a class="nav-link" target="_blank" href="https://www.linkedin.com/in/herbertbay/"><i class="fa fa-fw fab fa-linkedin"></i></a></li>
-        </ul>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navigation -->
+  <nav class="fixed w-full top-0 z-50">
+    <div class="glass-white shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <div class="flex items-center">
+            <a href="https://herbertbay.com/" class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+              Herbert Bay
+            </a>
+          </div>
+          <div class="flex items-center space-x-6">
+            <a href="https://herbertbay.com/" class="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">
+              <i class="fas fa-home mr-2"></i>Home
+            </a>
+            <a href="mailto:herbert.bay@gmail.com" class="text-gray-700 hover:text-blue-600 transition-colors duration-200" title="Email">
+              <i class="fas fa-envelope text-xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/herbertbay/" target="_blank" class="text-gray-700 hover:text-blue-600 transition-colors duration-200" title="LinkedIn">
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
-  <!-- nav -->
 
+  <!-- Hero Section -->
+  <section class="gradient-bg min-h-screen flex items-center justify-center pt-20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      
+      <!-- Main Content Card -->
+      <div class="bg-white rounded-3xl shadow-2xl overflow-hidden">
+        
+        <!-- Header -->
+        <div class="bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-600 p-8 md:p-12 text-white">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center float-animation">
+              <i class="fas fa-rocket text-4xl"></i>
+            </div>
+            <div>
+              <h1 class="text-4xl md:text-5xl font-bold mb-2">What I'm Doing Now</h1>
+              <p class="text-blue-100 text-lg">Last updated: January 17th, 2022</p>
+            </div>
+          </div>
+        </div>
 
-<section id="section-background" class="c-background c-section-w-intro">
-  <div class="container px-lg-0">
-    <div class="row mx-lg-0 justify-content-center intro">
-		  <div class="col-lg-8">
-        <h2>What am I doing now</h2>
-			  <div class="info">
-          <p>Updated Jan 17th 2022</p>
-					<div class="desc">
-            <ul>
-              <li>Currently focusing on my new venture <a target="_blank" href="https://earkick.com">Earkick</a> to measure mental health. I'm working on deep tech in order to understand how physiological signs can give us an idea about our mental health.</li>
-              <li>Reducing my CO2 footprint by living an easier life. Not something for everyone. For example, I am not heating all year round, switching off the fridge during winter time, having no car, eating vegetarian and trying to limit animal-based food, avoiding produced food at all costs, limit waste (currently at 1 waste bag per month for a household of 4), etc. Happy for suggestions. </li>
-              <li>Smart investments</li>
-              <li>Continue running at least 4 times per week</li>
-            </ul>
+        <!-- Content -->
+        <div class="p-8 md:p-12">
+          <div class="space-y-6">
+            
+            <!-- Earkick Focus -->
+            <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 hover:shadow-lg transition-shadow duration-300">
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
+                    <i class="fas fa-brain text-white text-xl"></i>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-xl font-bold text-gray-900 mb-3">Current Focus: Earkick</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Currently focusing on my new venture <a href="https://earkick.com" target="_blank" class="text-blue-600 hover:text-blue-800 font-semibold underline decoration-2 decoration-blue-400">Earkick</a> to measure mental health. I'm working on deep tech in order to understand how physiological signs can give us an idea about our mental health.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CO2 Footprint -->
+            <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-100 hover:shadow-lg transition-shadow duration-300">
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl flex items-center justify-center">
+                    <i class="fas fa-leaf text-white text-xl"></i>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-xl font-bold text-gray-900 mb-3">Reducing CO2 Footprint</h3>
+                  <p class="text-gray-700 leading-relaxed mb-4">
+                    Reducing my CO2 footprint by living an easier life. Not something for everyone. For example, I am not heating all year round, switching off the fridge during winter time, having no car, eating vegetarian and trying to limit animal-based food, avoiding produced food at all costs, limit waste (currently at 1 waste bag per month for a household of 4), etc. Happy for suggestions.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">No heating</span>
+                    <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">No car</span>
+                    <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Vegetarian</span>
+                    <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Minimal waste</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Smart Investments -->
+            <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100 hover:shadow-lg transition-shadow duration-300">
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl flex items-center justify-center">
+                    <i class="fas fa-chart-line text-white text-xl"></i>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-xl font-bold text-gray-900 mb-3">Smart Investments</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Continuing to make strategic investments in promising AI and technology companies.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Running -->
+            <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-100 hover:shadow-lg transition-shadow duration-300">
+              <div class="flex items-start gap-4">
+                <div class="flex-shrink-0">
+                  <div class="w-12 h-12 bg-gradient-to-br from-orange-600 to-red-600 rounded-xl flex items-center justify-center">
+                    <i class="fas fa-running text-white text-xl"></i>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-xl font-bold text-gray-900 mb-3">Health & Fitness</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Continue running at least 4 times per week to maintain physical and mental well-being.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
 
-				</div>
-				<!-- info -->
-			</div>
-			<!-- col -->
-						
-					
+          <!-- CTA Section -->
+          <div class="mt-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-center text-white">
+            <h3 class="text-2xl font-bold mb-4">Want to Connect?</h3>
+            <p class="mb-6 text-blue-100">
+              I'm always interested in discussing AI, entrepreneurship, and sustainability.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="mailto:herbert.bay@gmail.com" class="px-6 py-3 bg-white text-blue-600 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200 inline-flex items-center justify-center">
+                <i class="fas fa-envelope mr-2"></i>
+                Send Me an Email
+              </a>
+              <a href="https://www.linkedin.com/in/herbertbay/" target="_blank" class="px-6 py-3 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold hover:bg-white/20 transition-all duration-200 inline-flex items-center justify-center border border-white/30">
+                <i class="fab fa-linkedin mr-2"></i>
+                Connect on LinkedIn
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Back to Home Link -->
+      <div class="text-center mt-8">
+        <a href="https://herbertbay.com/" class="inline-flex items-center text-white hover:text-blue-300 transition-colors duration-200 font-medium text-lg">
+          <i class="fas fa-arrow-left mr-2"></i>
+          Back to Home
+        </a>
+      </div>
+
     </div>
-		<!-- row -->
-  </div>
-	<!-- container -->
-</section>
-<!-- c-background -->
+  </section>
 
-	
+  <!-- Footer -->
+  <footer class="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <p class="text-lg">&copy; 2025 Herbert Bay. All rights reserved.</p>
+        </div>
+        <div class="flex items-center space-x-6">
+          <a href="mailto:herbert.bay@gmail.com" class="hover:text-blue-400 transition-colors duration-200" title="Email">
+            <i class="fas fa-envelope text-2xl"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/herbertbay/" target="_blank" class="hover:text-blue-400 transition-colors duration-200" title="LinkedIn">
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a href="https://herbertbay.com/" class="hover:text-blue-400 transition-colors duration-200" title="Home">
+            <i class="fas fa-home text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<footer class="footer" style="margin-top:20px; padding-top:15px; background-color: rgba(0, 0, 0, 0.1);">
-	<div class="container">
-    <p class="copyright">© 2021 Herbert Bay</p>
-	</div>
-	<!-- container -->
-</footer>
-<!-- c-footer -->
+  <!-- Scroll to top button -->
+  <button id="scrollToTop" class="fixed bottom-8 right-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white w-12 h-12 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hidden items-center justify-center hover:scale-110 z-50">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Scroll to top functionality
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+    
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        scrollToTopBtn.classList.remove('hidden');
+        scrollToTopBtn.classList.add('flex');
+      } else {
+        scrollToTopBtn.classList.add('hidden');
+        scrollToTopBtn.classList.remove('flex');
+      }
+    });
+
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
 
 </body>
 </html>
-

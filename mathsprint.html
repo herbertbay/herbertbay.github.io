@@ -1,81 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<html lang="en" class="scroll-smooth">
 
-    <title>Herbert Bay - Entrepreneur, Computer Vision, Machine Learning, AI</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Math Sprint Apps - Develop mental math fluency in a fun way">
+  <meta name="author" content="Herbert Bay">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <title>Math Sprint Apps - Herbert Bay</title>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Space Grotesk', sans-serif;
+    }
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    .gradient-bg {
+      background: linear-gradient(-45deg, #0f172a, #1e293b, #312e81, #1e3a8a);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
 </head>
-<body>
-    <div class="container">
-<h1>Math Sprint Apps</h1>
-<p>
-Math Sprint apps help students to develop mental math fluency in a fun way. This app was developed together with my 6-year old son Adam for first graders.
-</p>
-</h2>
-The story
-</h2>
-<p>
-I am a homeschooling dad following the Singapore Math curriculum. Our family is sailing around the world and is currently in French Polynesia, South Pacific, where the Internet connectivity is often very poor. This limits access to online homeschooling tools. Therefore, we created this app and the learning results are very good. Developing this app was also part of introductory programming lessons for my son and it was a lot of fun to do it together. The user interface, background pattern, colors, and icons are created or chosen by Adam.
-</p>
-<h2>
-When to use the app?
-</h2>
-<p>
-The app is to be used in conjunction with a Singapore Math curriculum or similar. It is advised to use it before each math lesson as a warm-up or anytime as a support besides regular classes.
-</p>
-<h2>
-How it works?
-</h2>
-<p>
-In a Math Sprint, the student answers as many problems as possible within a specified time and then repeats trying to beat the earlier score by answering a greater number of problems. Each math sprint starts with 60 seconds. Every correct answer extends the elapsed time by one second. The student gets immediate feedback if the answer was correct or not. If not, the student can chose a different answer until correct.
-</p>
-<p>
-The first 8 problems are easy addition facts within 5 and some easier addition facts such as + 1. This is to give the student confidence in the beginning. It was tested and proven that the student then is more motivated to tackle the more difficult problems and this in turn leads to a better learning result.
-</p>
-<p>
-The scores should only be used to measure individual progress and not to compare to scores of other students.
-</p>
-<h2>
-Misc
-</h2>
-<p>
-Math Sprint is compliant with the Montessori education theory.
-Notice that this app takes into consideration that some first graders are still working on fine-motor skills. Therefore, it is designed the way that they can answer the questions without stress or having to write the numbers on their own.
-</p>
-<p>
-Please send any feedback to herbert.bay@gmail.com
-</p>
-<p>
-Have fun teaching and learning like we do.
-<br />
-Herbert &amp; Adam
-</p>
-</div>
+
+<body class="bg-gray-50">
+
+  <!-- Navigation -->
+  <nav class="fixed w-full top-0 z-50 bg-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex items-center">
+          <a href="index.html" class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+            Herbert Bay
+          </a>
+        </div>
+        <div class="flex items-center space-x-6">
+          <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">
+            <i class="fas fa-home mr-2"></i>Home
+          </a>
+          <a href="privacy.html" class="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="gradient-bg pt-32 pb-20 text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="inline-flex items-center justify-center w-20 h-20 bg-white/10 rounded-2xl mb-6">
+        <i class="fas fa-calculator text-4xl"></i>
+      </div>
+      <h1 class="text-5xl md:text-6xl font-bold mb-6">Math Sprint Apps</h1>
+      <p class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
+        Help students develop mental math fluency in a fun way
+      </p>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Introduction -->
+      <div class="bg-white rounded-2xl shadow-lg p-8 mb-8 border border-gray-100">
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0">
+            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
+              <i class="fas fa-lightbulb text-white text-xl"></i>
+            </div>
+          </div>
+          <div class="flex-1">
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Math Sprint apps help students to develop mental math fluency in a fun way. This app was developed together with my 6-year old son Adam for first graders.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Story -->
+      <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl shadow-lg p-8 mb-8 border border-blue-100">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+            <i class="fas fa-book-open text-white"></i>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900">The Story</h2>
+        </div>
+        <p class="text-gray-700 leading-relaxed">
+          I am a homeschooling dad following the Singapore Math curriculum. Our family is sailing around the world and is currently in French Polynesia, South Pacific, where the Internet connectivity is often very poor. This limits access to online homeschooling tools. Therefore, we created this app and the learning results are very good. Developing this app was also part of introductory programming lessons for my son and it was a lot of fun to do it together. The user interface, background pattern, colors, and icons are created or chosen by Adam.
+        </p>
+      </div>
+
+      <!-- When to Use -->
+      <div class="bg-white rounded-2xl shadow-lg p-8 mb-8 border border-gray-100">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 bg-gradient-to-br from-green-600 to-teal-600 rounded-lg flex items-center justify-center">
+            <i class="fas fa-clock text-white"></i>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900">When to Use the App?</h2>
+        </div>
+        <p class="text-gray-700 leading-relaxed">
+          The app is to be used in conjunction with a Singapore Math curriculum or similar. It is advised to use it before each math lesson as a warm-up or anytime as a support besides regular classes.
+        </p>
+      </div>
+
+      <!-- How it Works -->
+      <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl shadow-lg p-8 mb-8 border border-purple-100">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+            <i class="fas fa-cogs text-white"></i>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900">How It Works?</h2>
+        </div>
+        <div class="space-y-4">
+          <p class="text-gray-700 leading-relaxed">
+            In a Math Sprint, the student answers as many problems as possible within a specified time and then repeats trying to beat the earlier score by answering a greater number of problems. Each math sprint starts with 60 seconds. Every correct answer extends the elapsed time by one second. The student gets immediate feedback if the answer was correct or not. If not, the student can chose a different answer until correct.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            The first 8 problems are easy addition facts within 5 and some easier addition facts such as + 1. This is to give the student confidence in the beginning. It was tested and proven that the student then is more motivated to tackle the more difficult problems and this in turn leads to a better learning result.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            The scores should only be used to measure individual progress and not to compare to scores of other students.
+          </p>
+        </div>
+      </div>
+
+      <!-- Misc -->
+      <div class="bg-white rounded-2xl shadow-lg p-8 mb-8 border border-gray-100">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 bg-gradient-to-br from-indigo-600 to-blue-600 rounded-lg flex items-center justify-center">
+            <i class="fas fa-info-circle text-white"></i>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900">Additional Information</h2>
+        </div>
+        <div class="space-y-4 text-gray-700">
+          <p class="leading-relaxed">
+            Math Sprint is compliant with the Montessori education theory. Notice that this app takes into consideration that some first graders are still working on fine-motor skills. Therefore, it is designed the way that they can answer the questions without stress or having to write the numbers on their own.
+          </p>
+          <p class="leading-relaxed">
+            Please send any feedback to <a href="mailto:herbert.bay@gmail.com" class="text-blue-600 hover:text-blue-800 font-semibold">herbert.bay@gmail.com</a>
+          </p>
+          <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 mt-6 border border-blue-100">
+            <p class="text-lg font-semibold text-gray-900">
+              Have fun teaching and learning like we do.<br />
+              <span class="text-blue-600">Herbert & Adam</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <p class="text-lg">&copy; 2025 Herbert Bay. All rights reserved.</p>
+        </div>
+        <div class="flex items-center space-x-6">
+          <a href="mailto:herbert.bay@gmail.com" class="hover:text-blue-400 transition-colors duration-200" title="Email">
+            <i class="fas fa-envelope text-2xl"></i>
+          </a>
+          <a href="index.html" class="hover:text-blue-400 transition-colors duration-200">
+            <i class="fas fa-home text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
