@@ -1,0 +1,122 @@
+# Herbert Bay - AI Pioneer, Entrepreneur & Computer Vision Expert
+
+> Personal website of Herbert Bay - Entrepreneur, Investor, Computer Vision Expert, Machine Learning Pioneer, and Adventurer
+
+## About
+
+Herbert Bay is a Swiss computer scientist known for his groundbreaking work in computer vision and artificial intelligence. He is the lead-inventor of the SURF (Speeded-Up Robust Features) algorithm, which has been cited nearly 40,000 times in scientific publications.
+
+## Key Achievements
+
+- **SURF Algorithm**: Lead-inventor of the Speeded-Up Robust Features algorithm (cited ~40,000 times)
+- **ECCV Koenderink Prize 2016**: Awarded for fundamental contributions in computer vision that stood the test of time
+- **CVIU Most Cited Paper Award 2011**: Recognition for highly cited research contributions
+- **Top 200 Most Prominent Personalities**: Featured in Who Is Who in Zurich (2010)
+
+## Current Ventures & Projects
+
+### Active Companies (Current Position)
+
+1. **Mia21** - https://mia21.com
+   - Build Better Bots
+   - Current Position
+
+2. **Earkick** - https://earkick.com
+   - Tracking mental health using AI
+   - Current Position
+   - Wikipedia: https://en.wikipedia.org/wiki/Earkick
+
+### Other AI Ventures
+
+3. **PMF Engine** - https://pmf-engine.com
+   - Find product market fit using AI
+
+4. **kooaba** - https://www.crunchbase.com/organization/kooaba
+   - First cloud-based image recognition platform
+   - Exit 2014 to Qualcomm
+
+5. **Shortcut** - https://shortcutapp.io/en
+   - Secure notes app
+
+6. **Inspiced** - https://inspiced.co
+   - AI-powered cooking app
+
+7. **Waypoint.li**
+   - Mapping app for sailors (discontinued)
+
+## Professional Experience
+
+- **Magic Leap**: Building and leading Computer Vision and Machine Learning teams
+- **Ifolor**: Led Captural as CEO and co-initiator (AI-enabled photo-book app)
+- **Board Member**: Ifolor (2019-2023), 47nord (co-founder)
+- **Investor & Advisor**: Let's Enhance, Kudan (Tokyo), Maps.me (Moscow, acquired by Mail.Ru 2014)
+- **Coach**: ethonAI and other AI startups
+
+## Personal
+
+- **Adventure**: Crossed the Atlantic and Pacific oceans on a sailboat with wife and two young boys
+- **Blog**: https://sy-maya.tumblr.com/
+- **Sustainability Focus**: Actively reducing CO2 footprint through minimalist lifestyle
+
+## Media & Publications
+
+### Recent Appearances
+
+- **Swisspreneur Podcast EP #524** (Oct 2025): "How to Build a Product Dream Team" with Nenad Nikolic
+- **Founders Weekly** (Sept 2024): "Find Product-Market Fit with PMF Score"
+- **Swisspreneur Podcast EP #348** (May 2023): "Product Building from Start to Finish"
+- **Products That Count** (May 2023): "Solving Customer Problems and Quality Product Development"
+- **The Midpoint Podcast** (Apr 2023): "From Sailboats to Startups"
+
+### Academic Resources
+
+- **Source Code**: https://github.com/herbertbay/SURF
+- **Scientific Papers**: https://www.researchgate.net/scientific-contributions/Herbert-Bay-70317535
+- **Wikipedia**: https://en.wikipedia.org/wiki/Herbert_Bay
+
+### Articles & Writing
+
+- **Entrepreneur.com**: https://www.entrepreneur.com/author/herbert-bay
+- **Medium.com**: https://medium.com/@herbertbay
+- **ETH Globe Portrait**: "The Explorer" (Dec 2018)
+
+## Contact
+
+- **Email**: herbert.bay@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/herbertbay/
+- **GitHub**: https://github.com/herbertbay
+- **Website**: https://herbertbay.com
+
+## Stats
+
+- 40,000+ scientific citations
+- 7 AI ventures co-founded
+- 2 major awards (Koenderink Prize, CVIU Most Cited Paper Award)
+- 20+ years of experience in AI/ML/Computer Vision
+
+## What I'm Doing Now
+
+Last updated: January 17, 2022
+
+- Focusing on Mia21 (Build Better Bots) and Earkick (mental health AI)
+- Working on deep tech to understand physiological signs and mental health
+- Reducing CO2 footprint through sustainable living
+- Making smart investments in AI companies
+- Running at least 4 times per week
+
+## Site Structure
+
+- Main page: https://herbertbay.com/
+- What I'm doing now: https://herbertbay.com/now/
+- Math Sprint Apps: https://herbertbay.com/mathsprint.html
+- Privacy Policy: https://herbertbay.com/privacy.html
+
+## Keywords
+
+Computer Vision, Machine Learning, Artificial Intelligence, SURF Algorithm, Entrepreneurship, AI Startups, Image Recognition, Deep Tech, Mental Health AI, Swiss Tech, ETH Zurich, Startup Founder, Product Development, Innovation
+
+---
+
+This llms.txt file provides context about Herbert Bay and his work for AI assistants and language models.
+Last updated: November 2025
+
