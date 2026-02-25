@@ -1,122 +1,63 @@
-# Herbert Bay - AI Pioneer, Entrepreneur & Computer Vision Expert
+# Herbert Bay - AI Product Executive
 
-> Personal website of Herbert Bay - Entrepreneur, Investor, Computer Vision Expert, Machine Learning Pioneer, and Adventurer
+AI Product Executive with 22+ years building AI products • PhD Computer Vision (ETH Zurich) • 7 AI Products • 4 Ventures • 2 Exits • 40K+ Citations
 
-## About
+## Summary
 
-Herbert Bay is a Swiss computer scientist known for his groundbreaking work in computer vision and artificial intelligence. He is the lead-inventor of the SURF (Speeded-Up Robust Features) algorithm, which has been cited nearly 40,000 times in scientific publications.
+Serial AI entrepreneur and executive with 20+ years building and scaling AI products across Europe and the US. Co-founder and CEO of Earkick, developing Mia21—an advanced memory system for conversational AI. PhD in Computer Vision from ETH Zurich, co-creator of the SURF algorithm (40K+ citations), and proven track record scaling ventures from inception to successful exits. Combines deep technical expertise with operational leadership and board advisory experience.
 
-## Key Achievements
+## Current
 
-- **SURF Algorithm**: Lead-inventor of the Speeded-Up Robust Features algorithm (cited ~40,000 times)
-- **ECCV Koenderink Prize 2016**: Awarded for fundamental contributions in computer vision that stood the test of time
-- **CVIU Most Cited Paper Award 2011**: Recognition for highly cited research contributions
-- **Top 200 Most Prominent Personalities**: Featured in Who Is Who in Zurich (2010)
+**Mia21** - https://mia21.com
+Co-Founder & CEO • AI Memory Platform
+Enterprise conversational AI infrastructure with superior memory. SDKs for iOS, Android, Python, Javascript. LLM-agnostic architecture powering 250K+ user platform.
 
-## Current Ventures & Projects
+**Earkick** - https://earkick.com  
+Co-Founder & CEO • Mental Health AI (2021-Present)
+AI-powered mental health platform • 4.8★ rating • Featured by Apple, TIME, Forbes, National Geographic • Swiss-made, fully private
 
-### Active Companies (Current Position)
+## Background
 
-1. **Mia21** - https://mia21.com
-   - Build Better Bots
-   - Current Position
+**Education**
+PhD Computer Vision, ETH Zurich (2009)
+Lead-inventor of SURF algorithm • 40,000+ citations • Koenderink Prize 2016
 
-2. **Earkick** - https://earkick.com
-   - Tracking mental health using AI
-   - Current Position
-   - Wikipedia: https://en.wikipedia.org/wiki/Earkick
+**Ventures**
+- kooaba (2006-2014) — Co-founder & CEO • First cloud-based image recognition platform • Exit to Qualcomm 2014
+- 47nord (2012-2023) — Co-founder & Board Member • Home of Shortcut and Inspiced
+- Captural (2019-2023) — CEO & Co-initiator • AI-enabled photo-book application at Ifolor
+- Earkick (2021-Present) — Co-founder & CEO • Mental health AI platform
 
-### Other AI Ventures
+**AI Products**
+- Mia21 — AI memory platform for conversational AI
+- Earkick — Mental health AI with real-time biomarker analysis
+- PMF Engine — AI-powered product-market fit assessment
+- kooaba — Cloud-based image recognition (now Snapchat AR)
+- Captural — AI photo-book creation
+- Shortcut — Secure notes with AI features
+- Inspiced — AI-powered cooking recommendations
 
-3. **PMF Engine** - https://pmf-engine.com
-   - Find product market fit using AI
-
-4. **kooaba** - https://www.crunchbase.com/organization/kooaba
-   - First cloud-based image recognition platform
-   - Exit 2014 to Qualcomm
-
-5. **Shortcut** - https://shortcutapp.io/en
-   - Secure notes app
-
-6. **Inspiced** - https://inspiced.co
-   - AI-powered cooking app
-
-7. **Waypoint.li**
-   - Mapping app for sailors (discontinued)
-
-## Professional Experience
-
-- **Magic Leap**: Building and leading Computer Vision and Machine Learning teams
-- **Ifolor**: Led Captural as CEO and co-initiator (AI-enabled photo-book app)
-- **Board Member**: Ifolor (2019-2023), 47nord (co-founder)
-- **Investor & Advisor**: Let's Enhance, Kudan (Tokyo), Maps.me (Moscow, acquired by Mail.Ru 2014)
-- **Coach**: ethonAI and other AI startups
-
-## Personal
-
-- **Adventure**: Crossed the Atlantic and Pacific oceans on a sailboat with wife and two young boys
-- **Blog**: https://sy-maya.tumblr.com/
-- **Sustainability Focus**: Actively reducing CO2 footprint through minimalist lifestyle
-
-## Media & Publications
-
-### Recent Appearances
-
-- **Swisspreneur Podcast EP #524** (Oct 2025): "How to Build a Product Dream Team" with Nenad Nikolic
-- **Founders Weekly** (Sept 2024): "Find Product-Market Fit with PMF Score"
-- **Swisspreneur Podcast EP #348** (May 2023): "Product Building from Start to Finish"
-- **Products That Count** (May 2023): "Solving Customer Problems and Quality Product Development"
-- **The Midpoint Podcast** (Apr 2023): "From Sailboats to Startups"
-
-### Academic Resources
-
-- **Source Code**: https://github.com/herbertbay/SURF
-- **Scientific Papers**: https://www.researchgate.net/scientific-contributions/Herbert-Bay-70317535
-- **Wikipedia**: https://en.wikipedia.org/wiki/Herbert_Bay
-
-### Articles & Writing
-
-- **Entrepreneur.com**: https://www.entrepreneur.com/author/herbert-bay
-- **Medium.com**: https://medium.com/@herbertbay
-- **ETH Globe Portrait**: "The Explorer" (Dec 2018)
+**Leadership Experience**
+- Magic Leap — Led Computer Vision and Machine Learning teams
+- Ifolor — Board of Directors (2019-2023)
+- ETH Zurich — PhD Computer Vision (2002-2006)
 
 ## Contact
 
-- **Email**: herbert.bay@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/herbertbay/
-- **GitHub**: https://github.com/herbertbay
-- **Website**: https://herbertbay.com
+Email: herbert.bay@gmail.com
+LinkedIn: https://www.linkedin.com/in/herbertbay/
+Wikipedia: https://en.wikipedia.org/wiki/Herbert_Bay
+GitHub: https://github.com/herbertbay
+Website: https://herbertbay.com
 
 ## Stats
 
-- 40,000+ scientific citations
-- 7 AI ventures co-founded
-- 2 major awards (Koenderink Prize, CVIU Most Cited Paper Award)
-- 20+ years of experience in AI/ML/Computer Vision
-
-## What I'm Doing Now
-
-Last updated: January 17, 2022
-
-- Focusing on Mia21 (Build Better Bots) and Earkick (mental health AI)
-- Working on deep tech to understand physiological signs and mental health
-- Reducing CO2 footprint through sustainable living
-- Making smart investments in AI companies
-- Running at least 4 times per week
-
-## Site Structure
-
-- Main page: https://herbertbay.com/
-- What I'm doing now: https://herbertbay.com/now/
-- Math Sprint Apps: https://herbertbay.com/mathsprint.html
-- Privacy Policy: https://herbertbay.com/privacy.html
-
-## Keywords
-
-Computer Vision, Machine Learning, Artificial Intelligence, SURF Algorithm, Entrepreneurship, AI Startups, Image Recognition, Deep Tech, Mental Health AI, Swiss Tech, ETH Zurich, Startup Founder, Product Development, Innovation
+- 7 AI products built
+- 4 ventures founded (kooaba, 47nord, Captural, Earkick)
+- 2 successful exits (Qualcomm 2014, Captural/Ifolor 2023)
+- 40,000+ research citations (SURF algorithm)
+- 22+ years experience in AI/ML/Computer Vision
 
 ---
 
-This llms.txt file provides context about Herbert Bay and his work for AI assistants and language models.
 Last updated: November 2025
-

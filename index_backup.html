@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Herbert Bay | AI Pioneer & Innovation Leader</title>
+  <meta name="description" content="Herbert Bay - Entrepreneur and Investor - Expert in Computer Vision and Machine Learning - Adventurer">
+  <meta name="author" content="Herbert Bay">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    /* Animated gradient background */
+    .gradient-bg {
+      background: linear-gradient(-45deg, #0f172a, #1e293b, #312e81, #1e3a8a);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Glassmorphism effect */
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .glass-white {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    /* Neural network animation */
+    .neural-bg {
+      background-image: 
+        radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(76, 29, 149, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%);
+    }
+
+    /* Smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Hover effects */
+    .hover-lift {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-lift:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Floating animation */
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
+
+    .float-animation {
+      animation: float 6s ease-in-out infinite;
+    }
+
+    /* Particle effect */
+    .particles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+
+    .particle {
+      position: absolute;
+      width: 3px;
+      height: 3px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      animation: particle-float 20s infinite;
+    }
+
+    @keyframes particle-float {
+      0% {
+        transform: translateY(100vh) translateX(0);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      90% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100vh) translateX(100px);
+        opacity: 0;
+      }
+    }
+
+    /* Glow effect */
+    .glow {
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #1e293b;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+      border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(to bottom, #2563eb, #7c3aed);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navigation -->
+  <nav class="fixed w-full top-0 z-50 transition-all duration-300" id="navbar">
+    <div class="glass-white shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <div class="flex items-center">
+            <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+              Herbert Bay
+            </h1>
+          </div>
+          <div class="hidden md:flex items-center space-x-8">
+            <a href="#impact" class="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">Executive Impact</a>
+            <a href="#ventures" class="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">Ventures</a>
+            <a href="#leadership" class="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">Leadership</a>
+            <a href="#media" class="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">Media</a>
+            <a href="#contact" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium">Contact</a>
+          </div>
+          <div class="flex items-center space-x-4">
+            <a href="mailto:herbert.bay@gmail.com" class="text-gray-700 hover:text-blue-600 transition-colors duration-200" title="Email">
+              <i class="fas fa-envelope text-xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/herbertbay/" target="_blank" class="text-gray-700 hover:text-blue-600 transition-colors duration-200" title="LinkedIn">
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center bg-white pt-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
+      <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+        Herbert Bay
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">
+        AI Product Executive • PhD Computer Vision (ETH Zurich)<br/>
+        7 Ventures • 250K+ Users • 40K+ Citations • Exit to Qualcomm
+      </p>
+      
+      <!-- Simple Stats -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 max-w-3xl mx-auto">
+        <div>
+          <div class="text-3xl font-bold text-gray-900 mb-1">250K+</div>
+          <div class="text-sm text-gray-600">Users</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-gray-900 mb-1">40K+</div>
+          <div class="text-sm text-gray-600">Citations</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-gray-900 mb-1">7</div>
+          <div class="text-sm text-gray-600">Ventures</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-gray-900 mb-1">1</div>
+          <div class="text-sm text-gray-600">Exit</div>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://mia21.com" target="_blank" class="px-6 py-3 bg-gray-900 text-white font-medium hover:bg-gray-800 transition-colors duration-200">
+          Mia21 AI Platform →
+        </a>
+        <a href="#contact" class="px-6 py-3 border-2 border-gray-900 text-gray-900 font-medium hover:bg-gray-900 hover:text-white transition-all duration-200">
+          Contact
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Executive Impact Section -->
+  <section id="impact" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12">Current</h2>
+      
+      <div class="space-y-12">
+        <!-- Mia21 -->
+        <div class="border-l-4 border-gray-900 pl-6">
+          <h3 class="text-2xl font-bold text-gray-900 mb-2">Mia21</h3>
+          <p class="text-gray-600 mb-3">Co-Founder & CEO • AI Memory Platform</p>
+          <p class="text-gray-700 mb-4">
+            Enterprise conversational AI infrastructure with superior memory. SDKs for iOS, Android, Python, Javascript. 
+            LLM-agnostic architecture powering 250K+ user platform.
+          </p>
+          <a href="https://mia21.com" target="_blank" class="text-gray-900 font-medium hover:underline">
+            Visit Mia21 →
+          </a>
+        </div>
+
+        <!-- Earkick -->
+        <div class="border-l-4 border-gray-900 pl-6">
+          <h3 class="text-2xl font-bold text-gray-900 mb-2">Earkick</h3>
+          <p class="text-gray-600 mb-3">Co-Founder & CEO • Mental Health AI</p>
+          <p class="text-gray-700 mb-4">
+            250K+ active users • 4.8★ rating • 50% anxiety reduction • Featured by Apple, TIME, Forbes, National Geographic
+          </p>
+          <a href="https://earkick.com" target="_blank" class="text-gray-900 font-medium hover:underline">
+            Visit Earkick →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Background Section -->
+  <section id="ventures" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12">Background</h2>
+      
+      <div class="space-y-8">
+        <div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Education</h3>
+          <p class="text-gray-700">PhD Computer Vision, ETH Zurich (2009)</p>
+          <p class="text-gray-600 text-sm">Lead-inventor of SURF algorithm • 40,000+ citations • Koenderink Prize 2016</p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Past Ventures</h3>
+          <ul class="space-y-3 text-gray-700">
+            <li><strong>kooaba</strong> — First cloud-based image recognition platform • Exit to Qualcomm 2014</li>
+            <li><strong>PMF Engine</strong> — AI-powered product-market fit assessment</li>
+            <li><strong>Shortcut</strong> — Secure notes app</li>
+            <li><strong>Inspiced</strong> — AI cooking app</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Experience</h3>
+          <ul class="space-y-3 text-gray-700">
+            <li><strong>Magic Leap</strong> — Led Computer Vision and Machine Learning teams</li>
+            <li><strong>Ifolor</strong> — Board of Directors (2019-2023), CEO of Captural</li>
+            <li><strong>47nord</strong> — Co-founder & Board Member</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+          
+          <!-- Earkick -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+            <div class="bg-gradient-to-br from-blue-600 to-cyan-600 p-6">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                  <i class="fas fa-heart-pulse text-blue-600 text-2xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-white">Earkick</h3>
+                  <p class="text-blue-100">Co-Founder & CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-700 mb-4">
+                AI-powered mental health platform with real-time biomarker analysis. Multi-modal LLM companion that adapts to individual user needs.
+              </p>
+              <div class="grid grid-cols-3 gap-4 mb-4">
+                <div class="text-center">
+                  <div class="text-2xl font-bold text-blue-600">250K+</div>
+                  <div class="text-xs text-gray-600">Active Users</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-2xl font-bold text-blue-600">4.8★</div>
+                  <div class="text-xs text-gray-600">App Store</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-2xl font-bold text-blue-600">50%↓</div>
+                  <div class="text-xs text-gray-600">Anxiety</div>
+                </div>
+              </div>
+              <div class="space-y-2 text-sm">
+                <div class="flex items-center gap-2 text-gray-600">
+                  <i class="fas fa-trophy text-yellow-500"></i>
+                  <span>Featured by Apple, TIME, Forbes, National Geographic</span>
+                </div>
+                <div class="flex items-center gap-2 text-gray-600">
+                  <i class="fas fa-shield-alt text-green-500"></i>
+                  <span>Swiss-made, AES-256 encryption, fully private</span>
+                </div>
+              </div>
+              <a href="https://earkick.com" target="_blank" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                Visit Earkick →
+              </a>
+            </div>
+          </div>
+
+          <!-- PMF Engine -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+            <div class="bg-gradient-to-br from-purple-600 to-indigo-600 p-6">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                  <i class="fas fa-bullseye text-purple-600 text-2xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-white">PMF Engine</h3>
+                  <p class="text-purple-100">Co-Founder</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-700 mb-4">
+                AI-powered product-market fit assessment platform. Helps startups validate their ideas and find PMF using data-driven insights.
+              </p>
+              <div class="space-y-2 text-sm mb-4">
+                <div class="flex items-center gap-2 text-gray-600">
+                  <i class="fas fa-chart-line text-purple-600"></i>
+                  <span>Quantitative PMF scoring methodology</span>
+                </div>
+                <div class="flex items-center gap-2 text-gray-600">
+                  <i class="fas fa-robot text-purple-600"></i>
+                  <span>AI-driven market analysis</span>
+                </div>
+                <div class="flex items-center gap-2 text-gray-600">
+                  <i class="fas fa-users text-purple-600"></i>
+                  <span>Validated by startup accelerators</span>
+                </div>
+              </div>
+              <a href="https://pmf-engine.com" target="_blank" class="mt-4 block text-center bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors duration-200">
+                Visit PMF Engine →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Past Ventures & Exits -->
+      <div class="mb-12">
+        <h3 class="text-3xl font-bold text-gray-900 mb-6">Past Ventures & Exits</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          
+          <!-- kooaba -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+            <div class="bg-gradient-to-br from-green-600 to-emerald-600 p-6">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <i class="fas fa-camera text-green-600 text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold text-white">kooaba</h4>
+                  <p class="text-green-100 text-sm">Exited 2014</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-700 text-sm mb-3">
+                First cloud-based image recognition platform. Acquired by Qualcomm, technology integrated into Snapchat AR.
+              </p>
+              <div class="bg-green-50 rounded-lg p-3 text-sm text-green-800">
+                <strong>Exit:</strong> Qualcomm 2014 → Snapchat AR tech
+              </div>
+            </div>
+          </div>
+
+          <!-- Shortcut -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+            <div class="bg-gradient-to-br from-indigo-600 to-blue-600 p-6">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <i class="fas fa-sticky-note text-indigo-600 text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold text-white">Shortcut</h4>
+                  <p class="text-indigo-100 text-sm">Active</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-700 text-sm mb-3">
+                Secure notes application with end-to-end encryption. Privacy-first approach for personal information management.
+              </p>
+              <a href="https://shortcutapp.io/en" target="_blank" class="text-indigo-600 hover:text-indigo-800 text-sm font-semibold">
+                Learn More →
+              </a>
+            </div>
+          </div>
+
+          <!-- Inspiced -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+            <div class="bg-gradient-to-br from-orange-600 to-red-600 p-6">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                  <i class="fas fa-utensils text-orange-600 text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold text-white">Inspiced</h4>
+                  <p class="text-orange-100 text-sm">Active</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-700 text-sm mb-3">
+                AI-powered cooking application that provides personalized recipe recommendations and meal planning.
+              </p>
+              <a href="https://inspiced.co" target="_blank" class="text-orange-600 hover:text-orange-800 text-sm font-semibold">
+                Learn More →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Additional Leadership -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift border border-gray-100">
+          <div class="bg-gradient-to-br from-blue-600 to-blue-700 p-6">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                <i class="fas fa-building text-blue-600 text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white">Corporate Leadership</h3>
+            </div>
+          </div>
+          <div class="p-8">
+            <ul class="space-y-4 text-gray-700">
+              <li class="flex items-start">
+                <i class="fas fa-briefcase text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                <div>
+                  <strong>Magic Leap</strong> - Led Computer Vision and Machine Learning teams for AR/VR platform
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-user-tie text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                <div>
+                  <strong>Ifolor / Captural</strong> - CEO & Co-initiator of AI-enabled photo-book application
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-handshake text-blue-600 mt-1 mr-3 flex-shrink-0"></i>
+                <div>
+                  <strong>Investor & Advisor</strong> - Let's Enhance (AI upscaling), ethonAI (industrial AI)
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Technical Credentials -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift border border-gray-100">
+          <div class="bg-gradient-to-br from-purple-600 to-purple-700 p-6">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                <i class="fas fa-graduation-cap text-purple-600 text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white">Technical Credentials</h3>
+            </div>
+          </div>
+          <div class="p-8">
+            <ul class="space-y-4 text-gray-700">
+              <li class="flex items-start">
+                <i class="fas fa-university text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                <div>
+                  <strong>PhD Computer Vision</strong> - ETH Zurich, 2009 • Focus: Feature detection and descriptor algorithms
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-trophy text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                <div>
+                  <strong>SURF Algorithm</strong> - Lead inventor, <a href="https://en.wikipedia.org/wiki/Speeded_up_robust_features" target="_blank" class="text-purple-600 hover:text-purple-800">40,000+ citations</a> • Deployed globally in CV systems
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-award text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                <div>
+                  <strong>Koenderink Prize 2016</strong> - ECCV highest honor for fundamental contributions that stood the test of time
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-medal text-purple-600 mt-1 mr-3 flex-shrink-0"></i>
+                <div>
+                  <strong>CVIU Most Cited Paper Award 2011</strong> - Recognition for research impact
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Organizational Leadership Section -->
+      <div id="leadership" class="py-20 bg-white">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Organizational <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Leadership</span>
+          </h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Board Governance -->
+          <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift border border-gray-100">
+            <div class="bg-gradient-to-br from-indigo-600 to-indigo-700 p-6">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                  <i class="fas fa-users-cog text-indigo-600 text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Board & Governance</h3>
+              </div>
+            </div>
+            <div class="p-8">
+              <ul class="space-y-4 text-gray-700">
+                <li class="flex items-start">
+                  <i class="fas fa-building text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                  <div>
+                    <strong>Ifolor</strong> - Board of Directors (2019-2023) • $100M+ revenue photo products company
+                  </div>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-handshake text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                  <div>
+                    <strong>47nord</strong> - Co-founder & Board Member • Software development consultancy
+                  </div>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-chart-bar text-indigo-600 mt-1 mr-3 flex-shrink-0"></i>
+                  <div>
+                    <strong>Governance Experience</strong> - P&L oversight, strategic planning, M&A advisory
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Advisory & Investments -->
+          <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover-lift border border-gray-100">
+            <div class="bg-gradient-to-br from-green-600 to-emerald-700 p-6">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+                  <i class="fas fa-lightbulb text-green-600 text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-white">Advisory & Investments</h3>
+              </div>
+            </div>
+            <div class="p-8">
+              <ul class="space-y-4 text-gray-700">
+                <li class="flex items-start">
+                  <i class="fas fa-image text-green-600 mt-1 mr-3 flex-shrink-0"></i>
+                  <div>
+                    <strong>Let's Enhance</strong> - Investor & Advisor • AI image upscaling, $M+ ARR
+                  </div>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-industry text-green-600 mt-1 mr-3 flex-shrink-0"></i>
+                  <div>
+                    <strong>ethonAI</strong> - Advisor • ETH spin-off, industrial AI quality control
+                  </div>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-globe-asia text-green-600 mt-1 mr-3 flex-shrink-0"></i>
+                  <div>
+                    <strong>Past:</strong> Kudan (Tokyo AR/SLAM), Maps.me (Moscow, acquired by Mail.Ru)
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media" class="py-20 bg-white neural-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          Media <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Appearances</span>
+        </h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Media Card 1 - NEW: Swisspreneur EP #524 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://www.swisspreneur.org/podcast/herbert-bay-ep524" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="https://cdn.prod.website-files.com/66efccf0a803cdb85497b2a7/68e2a7982dc18e98841081d6_Nenad%20Nikolic%20%26%20Herbert%20Bay.png" alt="Swisspreneur Podcast EP #524" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Swisspreneur Podcast</h5>
+            <p class="text-gray-600 mb-4">EP #524 - Nenad Nikolic & Herbert Bay: How to Build a Product Dream Team, October 9th, 2025</p>
+            <a href="https://www.swisspreneur.org/podcast/herbert-bay-ep524" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Listen to the Podcast <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 2 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://www.youtube.com/watch?v=8dwv-Wlu8fU" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="http://img.youtube.com/vi/8dwv-Wlu8fU/0.jpg" alt="Founders Weekly" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <i class="fas fa-play-circle text-white text-5xl"></i>
+              </div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Founders Weekly</h5>
+            <p class="text-gray-600 mb-4">Find Product-Market Fit with PMF Score, Sept 20th, 2024</p>
+            <a href="https://www.youtube.com/watch?v=8dwv-Wlu8fU" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Watch the video <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 3 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://www.swisspreneur.org/podcast/herbert-bay-ep348" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="https://assets-global.website-files.com/606d97b2b1bff35b4de57a44/652fc658deb1850bef031ded_1.png" alt="Swisspreneur Podcast" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Swisspreneur Podcast</h5>
+            <p class="text-gray-600 mb-4">Product Building from Start to Finish, May 12th, 2023</p>
+            <a href="https://www.swisspreneur.org/podcast/herbert-bay-ep348" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Listen to the Podcast <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 4 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://productsthatcount.com/product-awards-series-earkick-co-founder-on-solving-customer-problems-privacy-focus-and-quality-product-development/" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="https://herbertbay.com/assets/img/PTCpodcast.png" alt="Products that count Podcast" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Products That Count</h5>
+            <p class="text-gray-600 mb-4">Herbert Bay on Solving Customer Problems and Quality Product Development, May 12th, 2023</p>
+            <a href="https://productsthatcount.com/product-awards-series-earkick-co-founder-on-solving-customer-problems-privacy-focus-and-quality-product-development/" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Listen to the Podcast <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 5 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://www.youtube.com/watch?v=eS7p-jcKoKU" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="http://img.youtube.com/vi/eS7p-jcKoKU/0.jpg" alt="The Midpoint Podcast" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <i class="fas fa-play-circle text-white text-5xl"></i>
+              </div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">The Midpoint Podcast</h5>
+            <p class="text-gray-600 mb-4">From Sailboats to Startups: The Incredible Journey of Herbert Bay, April 14th, 2023</p>
+            <a href="https://www.youtube.com/watch?v=eS7p-jcKoKU" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Watch the video <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 6 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://www.youtube.com/watch?v=gEiK-bDOADg" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="http://img.youtube.com/vi/gEiK-bDOADg/0.jpg" alt="Raw Startup" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <i class="fas fa-play-circle text-white text-5xl"></i>
+              </div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Raw Startup</h5>
+            <p class="text-gray-600 mb-4">Achieving Product Market Fit [with PMF Score], March 22nd, 2023</p>
+            <a href="https://www.youtube.com/watch?v=gEiK-bDOADg" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Watch the video <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 7 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://www.youtube.com/watch?v=j8eGFhGN_N8" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="http://img.youtube.com/vi/j8eGFhGN_N8/0.jpg" alt="TalentKick Coach" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <i class="fas fa-play-circle text-white text-5xl"></i>
+              </div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Talent Kick</h5>
+            <p class="text-gray-600 mb-4">Hearing from successful entrepreneurs - Coaching at TalentKick, November 1st, 2021</p>
+            <a href="https://youtu.be/j8eGFhGN_N8" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Watch the video <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 8 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <a href="https://www.youtube.com/watch?v=ZSL6GO4ptfs" target="_blank">
+            <div class="relative overflow-hidden group">
+              <img src="http://img.youtube.com/vi/ZSL6GO4ptfs/0.jpg" alt="TalentKick ethonAI" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <i class="fas fa-play-circle text-white text-5xl"></i>
+              </div>
+            </div>
+          </a>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Talent Kick</h5>
+            <p class="text-gray-600 mb-4">Personal messages ethonAI & mentor, November 1st, 2021</p>
+            <a href="https://www.youtube.com/watch?v=ZSL6GO4ptfs" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Watch the video <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 9 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <div class="relative overflow-hidden group">
+            <img src="https://herbertbay.com/assets/img/21-1.png" alt="Swisspreneur Podcast #21" class="w-full h-48 object-cover">
+          </div>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Podcast</h5>
+            <p class="text-gray-600 mb-4">Swisspreneur Podcast EP #21 - Selling a Company and Sailing Around The World, March 6th, 2019</p>
+            <a href="https://swisspreneur.org/podcast/herbert-bay-ep21/" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Listen to the Podcast <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 10 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <div class="relative overflow-hidden group">
+            <img src="https://herbertbay.com/assets/img/22-1.png" alt="Swisspreneur Podcast #22" class="w-full h-48 object-cover">
+          </div>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Podcast</h5>
+            <p class="text-gray-600 mb-4">Swisspreneur Podcast EP #22 - How To Build a Great Product, March 6th, 2019</p>
+            <a href="https://swisspreneur.org/podcast/herbert-bay-ep22/" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Listen to the Podcast <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 11 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <div class="relative overflow-hidden group">
+            <img src="https://herbertbay.com/assets/img/eth_globe.png" alt="ETH Globe Magazine" class="w-full h-48 object-cover">
+          </div>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Portrait</h5>
+            <p class="text-gray-600 mb-4">The Explorer: Portrait of Herbert Bay in the ETH Globe Magazine, Dec 18th, 2018</p>
+            <a href="https://ethz.ch/en/news-and-events/eth-news/news/2018/12/herbert-bay.html" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Read the article <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Media Card 12 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover-lift border border-gray-100">
+          <div class="relative overflow-hidden group">
+            <img src="https://herbertbay.com/assets/img/Herbert%20Bay-GM.png" alt="Giacobbo Müller" class="w-full h-48 object-cover">
+          </div>
+          <div class="p-6">
+            <h5 class="text-xl font-bold text-gray-900 mb-2">Portrait</h5>
+            <p class="text-gray-600 mb-4">Herbert Bay presenting kooaba at Giacobbo Müller premier at Kaufleuten Jan 27th, 2008</p>
+            <a href="https://www.srf.ch/play/tv/giacobbo--mueller/video/talk-andreas-thiel-otto-ineichen-herbert-bay?urn=urn:srf:video:02903ae6-7244-45c2-816c-dde8ca4b890b" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
+              Watch the video <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Executive Resources Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">
+          Publications & <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Recognition</span>
+        </h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Academic -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+          <div class="w-12 h-12 bg-gradient-to-br from-purple-600 to-indigo-600 rounded-xl flex items-center justify-center mb-4">
+            <i class="fas fa-graduation-cap text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Academic Credentials</h3>
+          <ul class="space-y-3 text-gray-700 text-sm">
+            <li class="flex items-start">
+              <i class="fas fa-link text-purple-600 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <a href="https://en.wikipedia.org/wiki/Herbert_Bay" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">Wikipedia Profile</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-link text-purple-600 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <a href="https://github.com/herbertbay/SURF" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">SURF Algorithm Source</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-link text-purple-600 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <a href="https://www.researchgate.net/scientific-contributions/Herbert-Bay-70317535" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">ResearchGate Publications</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-trophy text-yellow-500 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <span>Top 200 Most Prominent Personalities (Who Is Who Zurich, 2010)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Thought Leadership -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+          <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl flex items-center justify-center mb-4">
+            <i class="fas fa-pencil-alt text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Thought Leadership</h3>
+          <ul class="space-y-3 text-gray-700 text-sm">
+            <li class="flex items-start">
+              <i class="fas fa-link text-blue-600 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <a href="https://www.entrepreneur.com/author/herbert-bay" target="_blank" class="text-blue-600 hover:text-blue-800 font-semibold">Entrepreneur.com Contributor</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-link text-blue-600 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <a href="https://medium.com/@herbertbay" target="_blank" class="text-blue-600 hover:text-blue-800 font-semibold">Medium Articles</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-newspaper text-blue-600 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <a href="https://ethz.ch/en/news-and-events/eth-news/news/2018/12/herbert-bay.html" target="_blank" class="text-blue-600 hover:text-blue-800 font-semibold">ETH Globe Feature</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-podcast text-blue-600 mt-1 mr-2 flex-shrink-0 text-xs"></i>
+              <span>Frequent podcast guest (see Media section)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Key Links -->
+        <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+          <div class="w-12 h-12 bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl flex items-center justify-center mb-4">
+            <i class="fas fa-globe text-white text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Online Presence</h3>
+          <ul class="space-y-3 text-gray-700 text-sm">
+            <li class="flex items-start">
+              <i class="fab fa-linkedin text-blue-600 mt-1 mr-2 flex-shrink-0"></i>
+              <a href="https://www.linkedin.com/in/herbertbay/" target="_blank" class="text-blue-600 hover:text-blue-800 font-semibold">LinkedIn Profile</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fab fa-github text-gray-700 mt-1 mr-2 flex-shrink-0"></i>
+              <a href="https://github.com/herbertbay" target="_blank" class="text-blue-600 hover:text-blue-800 font-semibold">GitHub</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-envelope text-gray-700 mt-1 mr-2 flex-shrink-0"></i>
+              <a href="mailto:herbert.bay@gmail.com" class="text-blue-600 hover:text-blue-800 font-semibold">herbert.bay@gmail.com</a>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-ship text-cyan-600 mt-1 mr-2 flex-shrink-0"></i>
+              <a href="https://sy-maya.tumblr.com/" target="_blank" class="text-cyan-600 hover:text-cyan-800 font-semibold">Adventure Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / CTA Section -->
+  <section id="contact" class="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Let's Build Something <span class="text-cyan-400">Exceptional</span>
+      </h2>
+      <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+        Open to executive roles, advisory positions, and strategic partnerships in AI product development and leadership.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+          <i class="fas fa-briefcase text-4xl text-blue-400 mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Executive Roles</h3>
+          <p class="text-gray-300 text-sm">VP Product, Head of AI, GM positions at tech companies building AI at scale</p>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+          <i class="fas fa-handshake text-4xl text-purple-400 mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Advisory & Board</h3>
+          <p class="text-gray-300 text-sm">Strategic advisory for AI startups, board seats, investor relations</p>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+          <i class="fas fa-rocket text-4xl text-pink-400 mb-4"></i>
+          <h3 class="text-xl font-bold mb-2">Partnerships</h3>
+          <p class="text-gray-300 text-sm">Strategic partnerships, co-founding opportunities, technical collaborations</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="mailto:herbert.bay@gmail.com" class="px-8 py-4 bg-white text-blue-600 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-200 inline-flex items-center justify-center">
+          <i class="fas fa-envelope mr-2"></i>
+          herbert.bay@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/herbertbay/" target="_blank" class="px-8 py-4 bg-blue-600 text-white rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-200 inline-flex items-center justify-center">
+          <i class="fab fa-linkedin mr-2"></i>
+          Connect on LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <p class="text-lg">&copy; 2025 Herbert Bay. All rights reserved.</p>
+        </div>
+        <div class="flex items-center space-x-6">
+          <a href="mailto:herbert.bay@gmail.com" class="hover:text-blue-400 transition-colors duration-200" title="Email">
+            <i class="fas fa-envelope text-2xl"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/herbertbay/" target="_blank" class="hover:text-blue-400 transition-colors duration-200" title="LinkedIn">
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a href="https://github.com/herbertbay" target="_blank" class="hover:text-blue-400 transition-colors duration-200" title="GitHub">
+            <i class="fab fa-github text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button id="scrollToTop" class="fixed bottom-8 right-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white w-12 h-12 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hidden items-center justify-center hover:scale-110 z-50">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Scroll to top functionality
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+    
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        scrollToTopBtn.classList.remove('hidden');
+        scrollToTopBtn.classList.add('flex');
+      } else {
+        scrollToTopBtn.classList.add('hidden');
+        scrollToTopBtn.classList.remove('flex');
+      }
+    });
+
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 50) {
+        navbar.classList.add('shadow-2xl');
+      } else {
+        navbar.classList.remove('shadow-2xl');
+      }
+    });
+  </script>
+</body>
+</html>
