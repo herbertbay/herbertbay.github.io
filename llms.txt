@@ -1,20 +1,22 @@
-# Herbert Bay - AI Product Executive
+# Herbert Bay - AI Product & Engineering Leader
 
-AI Product Executive with 22+ years building AI products • PhD Computer Vision (ETH Zurich) • 7 AI Products • 4 Ventures • 2 Exits • 40K+ Citations
+AI Product & Engineering Leader who builds and scales systems to revenue • PhD Computer Vision (ETH Zurich) • 7 AI Products • 4 Ventures • 2 Exits • 40K+ Citations
 
 ## Summary
 
-Serial AI entrepreneur and executive with 20+ years building and scaling AI products across Europe and the US. Co-founder and CEO of Earkick, developing Mia21—an advanced memory system for conversational AI. PhD in Computer Vision from ETH Zurich, co-creator of the SURF algorithm (40K+ citations), and proven track record scaling ventures from inception to successful exits. Combines deep technical expertise with operational leadership and board advisory experience.
+AI Product & Engineering Leader with 20+ years building and scaling AI systems to revenue. Led technical teams at Magic Leap, founded companies that reached successful exits (Qualcomm acquisition), and currently CEO of Earkick with 250K+ users. PhD in Computer Vision from ETH Zurich, co-creator of SURF algorithm (40K+ citations). Combines hands-on engineering leadership with product strategy and P&L ownership. Proven track record taking systems from prototype to production at scale, driving user growth and monetization across consumer and enterprise markets.
 
 ## Current
 
 **Mia21** - https://mia21.com
 Co-Founder & CEO • AI Memory Platform
-Enterprise conversational AI infrastructure with superior memory. SDKs for iOS, Android, Python, Javascript. LLM-agnostic architecture powering 250K+ user platform.
+Engineering & Product: Built enterprise conversational AI infrastructure from ground up. Multi-platform SDKs (iOS, Android, Python, Javascript), LLM-agnostic architecture, real-time memory system handling millions of conversations.
+Scale & Revenue: Powers 250K+ active users across consumer and enterprise deployments. B2B SaaS model with API-based monetization.
 
 **Earkick** - https://earkick.com  
 Co-Founder & CEO • Mental Health AI (2021-Present)
-AI-powered mental health platform • 4.8★ rating • Featured by Apple, TIME, Forbes, National Geographic • Swiss-made, fully private
+Engineering & Product: Led full-stack development of AI mental health platform with real-time biomarker analysis, NLP-powered mood tracking, and privacy-first architecture (on-device ML).
+Scale & Revenue: 250K+ users, 4.8★ rating. Featured by Apple, TIME, Forbes. Freemium model with premium subscriptions. Revenue-generating since 2023.
 
 ## Background
 
@@ -23,10 +25,10 @@ PhD Computer Vision, ETH Zurich (2009)
 Lead-inventor of SURF algorithm • 40,000+ citations • Koenderink Prize 2016
 
 **Ventures**
-- kooaba (2006-2014) — Co-founder & CEO • First cloud-based image recognition platform • Exit to Qualcomm 2014
-- 47nord (2012-2023) — Co-founder & Board Member • Home of Shortcut and Inspiced
-- Captural (2019-2023) — CEO & Co-initiator • AI-enabled photo-book application at Ifolor
-- Earkick (2021-Present) — Co-founder & CEO • Mental health AI platform
+- kooaba (2006-2014) — Co-founder & CEO • Built first cloud-based image recognition platform • Scaled to millions of queries/month • Exit to Qualcomm 2014 (now powers Snapchat AR)
+- 47nord (2012-2023) — Co-founder & Board Member • Built and scaled Shortcut (secure notes) and Inspiced (AI cooking) to profitability
+- Captural (2019-2023) — CEO & Co-initiator • Built AI photo-book system processing 100K+ books annually at Ifolor
+- Earkick (2021-Present) — Co-founder & CEO • 250K+ users, revenue-generating mental health AI platform
 
 **AI Products**
 - Mia21 — AI memory platform for conversational AI
@@ -37,10 +39,10 @@ Lead-inventor of SURF algorithm • 40,000+ citations • Koenderink Prize 2016
 - Shortcut — Secure notes with AI features
 - Inspiced — AI-powered cooking recommendations
 
-**Leadership Experience**
-- Magic Leap — Led Computer Vision and Machine Learning teams
-- Ifolor — Board of Directors (2019-2023)
-- ETH Zurich — PhD Computer Vision (2002-2006)
+**Engineering Leadership**
+- Magic Leap — Head of Computer Vision & Machine Learning • Led team of 15+ engineers building AR perception systems
+- kooaba (Qualcomm) — VP Engineering post-acquisition • Scaled image recognition infrastructure to handle 10M+ daily queries
+- Ifolor — Board of Directors (2019-2023) • Technical oversight for e-commerce platform ($50M+ revenue)
 
 ## Contact
 
